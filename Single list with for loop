@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.List;
+
+public class Taxonomy{
+    public static void main(String args[]){
+        //Create a list
+        ArrayList<String> Domain = new ArrayList<String>();
+        Domain.add("Archaea");
+        Domain.add("Eukaria");
+        Domain.add("Bacteria");
+        
+            for(String i : Domain)
+            System.out.println(i);
+    }
+}
