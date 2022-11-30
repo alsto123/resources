@@ -1,0 +1,25 @@
+import java.io.*; //processes input and output
+import java.lang.*; //provides necessary framework, like functions for arrays
+import java.util.*;
+
+class MultiArray{
+    int rollno;
+    String name, address; //establishes two variables that are words not numbers.
+    
+    //Constructor
+    public MultiArray(int rollno, String name, String address){
+        this.rollno = rollno;
+        this.name = name;
+        this.address = address;
+    }
+    
+    public String toString(){
+        return this.rollno + "" + this.name + "" + this.address;
+    }//used to print Multi array details in main()
+}   
+
+class Sortbyroll implements Comparator<Student> {
+        public int compare(Student a, Student b){
+            return a.rollno - b.rollno;
+        }
+    }
