@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Example {
+
+    public static void main(String[] args) {
+        // Create a list of Strings.
+        List list = new ArrayList ();
+         
+        // Add three elements to the list.
+        list.add("Hello");
+        list.add("world");
+        list.add("!");   
+
+        // Remove one element from the list.
+        list.remove("Hello");
+    
+        // Update an element in the list.
+        list.set(0, "Goodbye");
+         
+        // Sort the list in ascending order.
+        Collections.sort(list);
+
+        // Print the updated list.
+        System.out.println(list);
+    }
+}
