@@ -1,0 +1,26 @@
+/**
+ * Domain List code
+ * Author: Alexander Stone
+ * coding course
+ */
+
+import java.util.*;
+import java.util.List;
+
+
+public class domainlist{
+    public static void main(String[] args){
+        List <String> taxonomy = new ArrayList();
+    
+        taxonomy.add(1, "Kingdom");
+        taxonomy.add(2, "Phylum");
+        taxonomy.add(3, "Class");
+        taxonomy.add(4, "Order");
+        taxonomy.add(5, "Family");
+        taxonomy.add(6, "Genus");
+        taxonomy.add(7, "Species");
+
+        String[] array = taxonomy.toArray(new String[0]);
+          for()
+    }
+}
