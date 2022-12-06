@@ -1,0 +1,35 @@
+
+/**
+ * Taxonomical lists exercise java
+ * 
+ * Author: Alexander Stone
+ * Date: 12/5/22
+ * Version: 1.0
+ */
+import java.util.*;
+
+public class Taxonomy
+{
+    public static void main(String[] args){
+        
+        
+        ArrayList <ArrayList <String>> Taxonomy = new ArrayList<ArrayList<String>>();
+        
+        ArrayList <String> Domain = new ArrayList <String>();
+        Domain.add(Bacteria);
+        Domain.add(Eukaria);
+        Domain.add(Prokaria);
+        Taxonomy.add(Domain);
+        
+        ArrayList <String> Kingdom = new ArrayList <String>();
+        
+        Kingdom.add(Protist);
+        Kingdom.add(Animal);
+        Kingdom.add(Plant);
+        Kingdom.add(Fungi);
+        Taxonomy.add(Kingdom);
+        
+        for(String t : Domain);
+        {
+            System.out.println(t);
+        }
