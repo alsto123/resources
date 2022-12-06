@@ -1,0 +1,38 @@
+
+/**
+ * Taxonomical lists exercise java
+ * 
+ * Author: Alexander Stone
+ * Date: 12/5/22
+ * Version: 1.0
+ */
+import java.util.*;
+import java.util.List;
+
+public class Taxonomy
+{
+    public static void main(String[] args){
+        
+        ArrayList <ArrayList <String>> Taxonomy = new ArrayList<ArrayList<String>>();
+        
+        ArrayList <String> Domain = new ArrayList <String>();
+        Domain.add("Bacteria");
+        Domain.add("Eukaria");
+        Domain.add("Prokaria");
+        Taxonomy.add(Domain);
+        
+        ArrayList <String> Kingdom = new ArrayList <String>();
+        
+        Kingdom.add("Protist");
+        Kingdom.add("Animal");
+        Kingdom.add("Plant");
+        Kingdom.add("Fungi");
+        Taxonomy.add(Kingdom);
+        
+        //How do we create a for each loop that allows us to print the WHOLE list at the same time.
+        for(String t : ){    
+            System.out.println(t);
+        }
+        
+    }
+}
