@@ -28,7 +28,7 @@ public class domainlist{
         Domain.add(0, "Eukaria");
         Domain.add(1, "Bacteria");
         Domain.add(2, "Archaea");
-            for(String D : array){
+            for(List <String> D : array){
                 System.out.println(D + " has been converted to array");
             }
         
